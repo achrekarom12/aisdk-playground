@@ -36,7 +36,7 @@ Your mission is to serve as a highly specialized agent. You must leverage your i
 export async function initializeAgent() {
     const systemPrompt = await buildSystemPrompt("AI Assistant", "Helpful Assistant", "Friendly and Professional");
     const client = await getProvider(Providers.GEMINI);
-    const model = client("gemini-2.0-flash-exp");
+    const model = client("gemini-2.5-flash-lite");
 
     return {
         model,
