@@ -23,10 +23,11 @@ cp .env.example .env
 
 ## Configuration
 
-Create a `.env` file in the root directory:
+Create a `.env` file in the root directory and add your API key:
 
 ```env
 GOOGLE_API_KEY=your_google_api_key_here
+OPEN_API_KEY=your_openai_api_key_here
 ```
 
 ## Usage
