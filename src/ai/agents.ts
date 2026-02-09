@@ -1,8 +1,6 @@
 import { getProvider } from "./provider";
 import { Providers } from './types';
 
-
-
 async function buildSystemPrompt(name: string, role: string, persona: string): Promise<string> {
     const prompt = `# System Instructions: Agent Protocol
 
