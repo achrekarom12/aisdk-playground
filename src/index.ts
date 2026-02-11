@@ -1,7 +1,7 @@
 import { initializeAgent } from "./ai/agents";
 import { DatabaseService } from "./db/database";
 import { InteractiveTUI } from "./tui/interactive";
-import { getSystemUsername, generateUserId } from "./utils/user";
+import { getSystemUsername } from "./utils/user";
 
 async function main() {
     try {
@@ -9,7 +9,7 @@ async function main() {
 
         // Get system username
         const username = await getSystemUsername();
-        const userId = generateUserId(username);
+        const userId = `user_${username}`
         console.log(`\x1b[90m✓ User ID: ${userId}\x1b[0m`);
 
         // Initialize database

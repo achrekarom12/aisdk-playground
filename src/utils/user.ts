@@ -10,7 +10,3 @@ export async function getSystemUsername(): Promise<string> {
         return 'user';
     }
 }
-
-export function generateUserId(username: string): string {
-    return `user_${username}`;
-}
