@@ -16,6 +16,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@ai-sdk/azure": "^3.0.30",
     "@ai-sdk/google": "^3.0.10",
     "@ai-sdk/openai": "^3.0.25",
     "@libsql/client": "^0.17.0",
