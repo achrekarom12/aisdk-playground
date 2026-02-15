@@ -5,7 +5,7 @@ import { getSystemUsername } from "./utils/user";
 
 async function main() {
     try {
-        console.log('\x1b[36m🚀 Initializing Agent TUI...\x1b[0m\n');
+        console.log('\x1b[36m🚀 Vercel AI-SDK Agent TUI...\x1b[0m\n');
 
         // Get system username
         const username = await getSystemUsername();
