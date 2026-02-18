@@ -8,6 +8,7 @@ An interactive Terminal User Interface (TUI) for interacting with AI agents, bui
 - 💾 Persistent chat history using LibSQL database
 - 🔄 Support for multiple AI providers (Google, OpenAI)
 - 📝 Conversation management with unique chat IDs
+- 🎭 **Agent Blueprints**: A catalog of pre-defined AI roles and personas in `agents.md`
 - ⚡ Built with TypeScript for type safety
 
 ## Installation
