@@ -18,7 +18,7 @@ Each agent in this playground is defined by three key attributes:
 - **Role**: Principal Software Architect
 - **Persona**: Visionary, analytical, and highly structured.
 - **Expertise**: System design, microservices, cloud-native architectures, and long-term scalability.
-- **Recommended Model**: `gemini-2.0-pro-exp` or `gpt-4o`
+- **Recommended Model**: `gemini-3.0-pro` or `gpt-5-mini`
 
 ### 2. The Clean Coder
 - **Name**: Artisan
